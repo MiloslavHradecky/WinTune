@@ -19,8 +19,8 @@ class JsonFormatter(logging.Formatter):
 
 # --- Inicializace logeru ---
 def get_logger(name: str) -> logging.Logger:
-    log_file_txt = resource_path("logs/app.log")
-    log_file_json = resource_path("logs/structured.log")
+    log_file_txt = resource_path("logs/app.txt")
+    log_file_json = resource_path("logs/app.json")
     logger = logging.getLogger(name)
     if logger.hasHandlers():
         return logger
