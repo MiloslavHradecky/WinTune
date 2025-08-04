@@ -24,6 +24,7 @@ It helps users monitor, tweak, and fine-tune their operating system to achieve b
 ## 🛡️ Safety First
 
 All tweaks include:
+
 - Automatic backup before applying changes
 - Revert-to-default option
 - Logging of all actions for transparency
