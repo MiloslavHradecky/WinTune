@@ -1,0 +1,38 @@
+WinTune/
+│
+├── model/              # 🔍 Logika, data, konfigurace systému
+│   ├── services.py         # Práce se službami Windows
+│   ├── system_info.py      # Sběr dat: RAM, CPU, cache...
+│   ├── profiles.py         # Profily ladění
+│   └── backup.py           # Export / záloha nastavení
+│
+├── view/               # 🎨 GUI (PyQt6) komponenty
+│   ├── main_window.py      # Hlavní okno
+│   ├── widgets/            # Custom widgety (grafy, přepínače)
+│   ├── assets/             # Ikony, obrázky, styl
+│   └── themes/             # Styly (tmavý/světlý režim)
+│
+├── controller/         # ⚙️ Spojuje GUI s logikou
+│   ├── main_controller.py  # Řídí flow aplikace
+│   ├── event_handlers.py   # Akce tlačítek, komunikace mezi vrstvami
+│   └── services_bridge.py  # Volání skriptů PowerShell z GUI
+│
+├── scripts/            # 🧪 PowerShell a podpůrné Python skripty
+│   ├── disable_services.ps1
+│   ├── clean_cache.ps1
+│   ├── measure_ping.ps1
+│   └── restore_defaults.ps1
+│
+├── utils/              # 🧰 Pomocné moduly, logování, validace
+│   ├── file_dialogs.py
+│   ├── logger.py
+│   └── paths.py
+│
+├── tests/              # ✅ Jednotkové a integrace testy
+│
+├── docs/               # 📚 Dokumentace, schémata, poznámky
+│
+├── .gitignore          # Git nastavení
+├── README.md           # Popis projektu
+├── requirements.txt    # Závislosti (PyQt6, etc.)
+└── main.py             # Spouštěcí soubor aplikace
