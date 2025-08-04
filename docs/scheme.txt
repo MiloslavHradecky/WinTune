@@ -7,13 +7,14 @@ WinTune/
 │   └── backup.py           # Export / záloha nastavení
 │
 ├── view/               # 🎨 GUI (PyQt6) komponenty
-│   ├── main_window.py      # Hlavní okno
+│   ├── main_window.py      # Main window
+│   ├── splash_screen.py    # Startup window
 │   ├── widgets/            # Custom widgety (grafy, přepínače)
-│   ├── assets/             # Ikony, obrázky, styl
+│   ├── assets/             # Icons, images, style
 │   └── themes/             # Styly (tmavý/světlý režim)
 │
-├── controller/         # ⚙️ Spojuje GUI s logikou
-│   ├── main_controller.py  # Řídí flow aplikace
+├── controller/         # ⚙️ Connects GUI with logic
+│   ├── main_controller.py  # Controls application flow
 │   ├── event_handlers.py   # Akce tlačítek, komunikace mezi vrstvami
 │   └── services_bridge.py  # Volání skriptů PowerShell z GUI
 │
@@ -23,14 +24,15 @@ WinTune/
 │   ├── measure_ping.ps1
 │   └── restore_defaults.ps1
 │
-├── utils/              # 🧰 Pomocné moduly, logování, validace
+├── utils/              # 🧰 Auxiliary modules, logging, validation
+│   ├── resources.py
 │   ├── file_dialogs.py
 │   ├── logger.py
 │   └── paths.py
 │
 ├── tests/              # ✅ Jednotkové a integrace testy
 │
-├── docs/               # 📚 Dokumentace, schémata, poznámky
+├── docs/               # 📚 Documentation, schemas, notes
 │
 ├── .gitignore          # Git nastavení
 ├── README.md           # Popis projektu
