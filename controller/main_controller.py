@@ -10,6 +10,7 @@ import getpass
 import socket
 from view.main_window import MainWindow
 from utils.logger import get_logger
+from controller.services_controller import ServicesController
 
 
 class MainController:
@@ -18,6 +19,11 @@ class MainController:
         self.logger = get_logger("MainController")
         self.log_start()
         self.window = MainWindow()
+        self.window.controller = self
+        self.services_ctrl = ServicesController(main_window=self.window)
+
+        # ✅ Let's connect the handle
+        self.window.btn_services.clicked.connect(self.handle_services_click)
 
     @staticmethod
     def prepare_environment():
@@ -39,6 +45,11 @@ class MainController:
         username = getpass.getuser()
         ip_address = self.get_local_ip()
         self.logger.info(f"Aplikace spuštěna uživatelem: {username}, IP: {ip_address}")
+
+    def handle_services_click(self):
+        self.logger.info("Kliknuto na 'Services'")
+        self.window.hide()
+        self.services_ctrl.show()
 
     def run_app(self):
         # 🚀 Případné další logiky při startu (např. načtení dat, kontrola systému)

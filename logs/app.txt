@@ -4,3 +4,20 @@
 2025-08-05 14:43:23,846 | INFO | MainController | Aplikace spuštěna uživatelem: miloslah, IP: 10.0.17.29
 2025-08-05 14:44:42,248 | INFO | MainController | Aplikace spuštěna uživatelem: miloslah, IP: 10.0.17.29
 2025-08-05 14:45:28,244 | INFO | MainController | Aplikace spuštěna uživatelem: miloslah, IP: 10.0.17.29
+2025-08-05 15:34:55,028 | INFO | MainController | Aplikace spuštěna uživatelem: miloslah, IP: 10.0.17.29
+2025-08-05 15:35:04,397 | INFO | MainController | Kliknuto na 'Služby'
+2025-08-05 15:41:12,828 | INFO | MainController | Aplikace spuštěna uživatelem: miloslah, IP: 10.0.17.29
+2025-08-05 15:41:26,325 | INFO | MainController | Kliknuto na 'Services'
+2025-08-05 15:59:02,082 | INFO | MainController | Aplikace spuštěna uživatelem: miloslah, IP: 10.0.17.29
+2025-08-05 15:59:13,446 | INFO | MainController | Kliknuto na 'Services'
+2025-08-05 16:04:06,595 | INFO | MainController | Aplikace spuštěna uživatelem: miloslah, IP: 10.0.17.29
+2025-08-05 16:04:16,197 | INFO | MainController | Kliknuto na 'Services'
+2025-08-05 16:04:49,050 | INFO | MainController | Kliknuto na 'Services'
+2025-08-05 16:21:33,620 | INFO | MainController | Aplikace spuštěna uživatelem: miloslah, IP: 10.0.17.29
+2025-08-05 16:23:35,048 | INFO | MainController | Aplikace spuštěna uživatelem: miloslah, IP: 10.0.17.29
+2025-08-05 16:23:44,896 | INFO | MainController | Kliknuto na 'Services'
+2025-08-05 16:23:52,901 | INFO | MainController | Kliknuto na 'Services'
+2025-08-05 16:27:51,302 | INFO | MainController | Aplikace spuštěna uživatelem: miloslah, IP: 10.0.17.29
+2025-08-05 16:27:59,363 | INFO | MainController | Kliknuto na 'Services'
+2025-08-05 16:28:07,028 | INFO | MainController | Kliknuto na 'Services'
+2025-08-05 16:28:10,096 | INFO | MainController | Kliknuto na 'Services'

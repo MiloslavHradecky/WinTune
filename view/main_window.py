@@ -24,9 +24,9 @@ class MainWindow(QMainWindow):
 
         # 🧩 Set images for buttons using resource_path for compatibility
         services_img_path = resource_path("view/assets/services.png")
-        btn_services = QPushButton("Services")
-        btn_services.setIcon(QIcon(str(services_img_path)))
-        btn_services.setIconSize(QSize(32, 32))
+        self.btn_services = QPushButton("Services")
+        self.btn_services.setIcon(QIcon(str(services_img_path)))
+        self.btn_services.setIconSize(QSize(32, 32))
 
         central_widget = QWidget()
         self.setCentralWidget(central_widget)
@@ -35,7 +35,7 @@ class MainWindow(QMainWindow):
         grid_layout = QGridLayout()
 
         # 🟦 First button: Services
-        btn_services.setStyleSheet("""
+        self.btn_services.setStyleSheet("""
             QPushButton {
                 background-color: #2ECC71;
                 color: white;
@@ -53,6 +53,6 @@ class MainWindow(QMainWindow):
                 padding-top: 12px;
             }
         """)
-        grid_layout.addWidget(btn_services, 0, 0)  # 📌 first column, first row
+        grid_layout.addWidget(self.btn_services, 0, 0)  # 📌 first column, first row
 
         main_layout.addLayout(grid_layout)
