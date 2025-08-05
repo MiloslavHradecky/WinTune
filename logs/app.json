@@ -21,3 +21,6 @@
 {"timestamp": "2025-08-05 16:27:59,363", "level": "INFO", "module": "MainController", "message": "Kliknuto na 'Services'"}
 {"timestamp": "2025-08-05 16:28:07,028", "level": "INFO", "module": "MainController", "message": "Kliknuto na 'Services'"}
 {"timestamp": "2025-08-05 16:28:10,096", "level": "INFO", "module": "MainController", "message": "Kliknuto na 'Services'"}
+{"timestamp": "2025-08-05 22:28:48,753", "level": "INFO", "module": "MainController", "message": "Aplikace spuštěna uživatelem: Home, IP: 192.168.1.86"}
+{"timestamp": "2025-08-05 22:29:06,532", "level": "INFO", "module": "MainController", "message": "Kliknuto na 'Services'"}
+{"timestamp": "2025-08-05 22:29:25,780", "level": "INFO", "module": "MainController", "message": "Kliknuto na 'Services'"}
