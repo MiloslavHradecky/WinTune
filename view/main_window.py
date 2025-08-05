@@ -34,10 +34,10 @@ class MainWindow(QMainWindow):
         main_layout = QVBoxLayout(central_widget)
         grid_layout = QGridLayout()
 
-        # 🟦 První tlačítko: Služby
+        # 🟦 First button: Services
         btn_services.setStyleSheet("""
             QPushButton {
-                background-color: #2ecc71;
+                background-color: #2ECC71;
                 color: white;
                 font-size: 18px;
                 padding: 10px;
@@ -45,14 +45,14 @@ class MainWindow(QMainWindow):
                 text-align: left;
             }
             QPushButton:hover {
-                background-color: #27ae60;
+                background-color: #27AE60;
             }
             QPushButton:pressed {
-                background-color: #1e8449;
+                background-color: #1E8449;
                 padding-left: 12px; /* jemný posun při kliknutí */
                 padding-top: 12px;
             }
         """)
-        grid_layout.addWidget(btn_services, 0, 0)  # první sloupec, první řádek
+        grid_layout.addWidget(btn_services, 0, 0)  # 📌 first column, first row
 
         main_layout.addLayout(grid_layout)
