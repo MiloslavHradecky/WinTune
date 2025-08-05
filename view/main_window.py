@@ -5,9 +5,9 @@ Basic placeholder for application's main window.
 Appears after splash screen and will be extended with full GUI.
 """
 
-from PyQt6.QtWidgets import QMainWindow, QLabel
+from PyQt6.QtWidgets import QMainWindow, QWidget, QPushButton, QGridLayout, QVBoxLayout
 from PyQt6.QtGui import QIcon
-from PyQt6.QtCore import Qt
+from PyQt6.QtCore import QSize
 from utils.resources import resource_path
 
 
@@ -22,8 +22,37 @@ class MainWindow(QMainWindow):
         icon_path = resource_path("view/assets/main.ico")
         self.setWindowIcon(QIcon(str(icon_path)))
 
-        # 📌 Dočasný text (placeholder)
-        label = QLabel("WinTune GUI zatím ladíme...", self)
-        label.setStyleSheet("color: white; font-size: 18px;")
-        label.setAlignment(Qt.AlignmentFlag.AlignCenter)
-        self.setCentralWidget(label)
+        # 🧩 Set images for buttons using resource_path for compatibility
+        services_img_path = resource_path("view/assets/services.png")
+        btn_services = QPushButton("Services")
+        btn_services.setIcon(QIcon(str(services_img_path)))
+        btn_services.setIconSize(QSize(32, 32))
+
+        central_widget = QWidget()
+        self.setCentralWidget(central_widget)
+
+        main_layout = QVBoxLayout(central_widget)
+        grid_layout = QGridLayout()
+
+        # 🟦 První tlačítko: Služby
+        btn_services.setStyleSheet("""
+            QPushButton {
+                background-color: #2ecc71;
+                color: white;
+                font-size: 18px;
+                padding: 10px;
+                border-radius: 8px;
+                text-align: left;
+            }
+            QPushButton:hover {
+                background-color: #27ae60;
+            }
+            QPushButton:pressed {
+                background-color: #1e8449;
+                padding-left: 12px; /* jemný posun při kliknutí */
+                padding-top: 12px;
+            }
+        """)
+        grid_layout.addWidget(btn_services, 0, 0)  # první sloupec, první řádek
+
+        main_layout.addLayout(grid_layout)
