@@ -1,0 +1,5 @@
+Modul 'Služby' umožňuje spravovat systémové služby ve Windows.
+
+Můžeš je zobrazit, spustit, zastavit nebo upravit jejich typ spuštění.
+
+⚠️ Pozor, některé služby jsou klíčové pro běh systému — manipuluj s rozvahou.

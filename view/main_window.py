@@ -18,6 +18,10 @@ class MainWindow(QMainWindow):
         self.setFixedSize(800, 600)
         self.setStyleSheet("background-color: #121212;")
 
+        style_app_btn_path = resource_path("view/themes/application_buttons.qss")
+        with open(style_app_btn_path, encoding="utf-8") as f:
+            app_btn_style = f.read()
+
         # 🧩 Set window icon using resource_path for compatibility
         icon_path = resource_path("view/assets/main.ico")
         self.setWindowIcon(QIcon(str(icon_path)))
@@ -35,25 +39,7 @@ class MainWindow(QMainWindow):
         grid_layout = QGridLayout()
 
         # 🟦 First button: Services
-        self.btn_services.setStyleSheet("""
-            QPushButton {
-                background-color: #2ECC71;
-                color: white;
-                font-family: 'Segoe UI', sans-serif;
-                font-size: 20px;
-                font-weight: bold;
-                padding: 10px;
-                border-radius: 8px;
-            }
-            QPushButton:hover {
-                background-color: #27AE60;
-            }
-            QPushButton:pressed {
-                background-color: #1E8449;
-                padding-left: 12px; /* jemný posun při kliknutí */
-                padding-top: 12px;
-            }
-        """)
+        self.btn_services.setStyleSheet(app_btn_style)
         grid_layout.addWidget(self.btn_services, 0, 0)  # 📌 first column, first row
 
         main_layout.addLayout(grid_layout)

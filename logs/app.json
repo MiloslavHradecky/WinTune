@@ -35,3 +35,15 @@
 {"timestamp": "2025-08-06 16:12:22,007", "level": "INFO", "module": "MainController", "message": "Aplikace spuštěna uživatelem: miloslah, IP: 10.0.17.29"}
 {"timestamp": "2025-08-06 16:12:33,150", "level": "INFO", "module": "MainController", "message": "Kliknuto na 'Services'"}
 {"timestamp": "2025-08-06 16:20:53,497", "level": "INFO", "module": "MainController", "message": "Kliknuto na 'Services'"}
+{"timestamp": "2025-08-06 20:18:39,836", "level": "INFO", "module": "MainController", "message": "Aplikace spuštěna uživatelem: Home, IP: 192.168.1.86"}
+{"timestamp": "2025-08-06 20:18:55,260", "level": "INFO", "module": "MainController", "message": "Kliknuto na 'Services'"}
+{"timestamp": "2025-08-06 20:50:06,679", "level": "INFO", "module": "MainController", "message": "Aplikace spuštěna uživatelem: Home, IP: 192.168.1.86"}
+{"timestamp": "2025-08-06 20:50:32,484", "level": "INFO", "module": "MainController", "message": "Kliknuto na 'Services'"}
+{"timestamp": "2025-08-06 20:53:01,144", "level": "INFO", "module": "MainController", "message": "Aplikace spuštěna uživatelem: Home, IP: 192.168.1.86"}
+{"timestamp": "2025-08-06 20:53:15,513", "level": "INFO", "module": "MainController", "message": "Kliknuto na 'Services'"}
+{"timestamp": "2025-08-06 20:54:29,675", "level": "INFO", "module": "MainController", "message": "Kliknuto na 'Services'"}
+{"timestamp": "2025-08-06 20:57:50,716", "level": "INFO", "module": "MainController", "message": "Aplikace spuštěna uživatelem: Home, IP: 192.168.1.86"}
+{"timestamp": "2025-08-06 20:58:01,772", "level": "INFO", "module": "MainController", "message": "Kliknuto na 'Services'"}
+{"timestamp": "2025-08-06 21:15:14,140", "level": "INFO", "module": "MainController", "message": "Aplikace spuštěna uživatelem: Home, IP: 192.168.1.86"}
+{"timestamp": "2025-08-06 21:15:29,302", "level": "INFO", "module": "MainController", "message": "Kliknuto na 'Services'"}
+{"timestamp": "2025-08-06 21:15:52,046", "level": "INFO", "module": "MainController", "message": "Kliknuto na 'Services'"}
