@@ -24,3 +24,14 @@
 {"timestamp": "2025-08-05 22:28:48,753", "level": "INFO", "module": "MainController", "message": "Aplikace spuštěna uživatelem: Home, IP: 192.168.1.86"}
 {"timestamp": "2025-08-05 22:29:06,532", "level": "INFO", "module": "MainController", "message": "Kliknuto na 'Services'"}
 {"timestamp": "2025-08-05 22:29:25,780", "level": "INFO", "module": "MainController", "message": "Kliknuto na 'Services'"}
+{"timestamp": "2025-08-06 15:25:49,237", "level": "INFO", "module": "MainController", "message": "Aplikace spuštěna uživatelem: miloslah, IP: 10.0.17.29"}
+{"timestamp": "2025-08-06 15:26:01,148", "level": "INFO", "module": "MainController", "message": "Kliknuto na 'Services'"}
+{"timestamp": "2025-08-06 15:34:06,679", "level": "INFO", "module": "MainController", "message": "Aplikace spuštěna uživatelem: miloslah, IP: 10.0.17.29"}
+{"timestamp": "2025-08-06 15:34:15,809", "level": "INFO", "module": "MainController", "message": "Kliknuto na 'Services'"}
+{"timestamp": "2025-08-06 15:37:29,385", "level": "INFO", "module": "MainController", "message": "Aplikace spuštěna uživatelem: miloslah, IP: 10.0.17.29"}
+{"timestamp": "2025-08-06 15:38:13,913", "level": "INFO", "module": "MainController", "message": "Kliknuto na 'Services'"}
+{"timestamp": "2025-08-06 16:07:44,852", "level": "INFO", "module": "MainController", "message": "Aplikace spuštěna uživatelem: miloslah, IP: 10.0.17.29"}
+{"timestamp": "2025-08-06 16:07:55,472", "level": "INFO", "module": "MainController", "message": "Kliknuto na 'Services'"}
+{"timestamp": "2025-08-06 16:12:22,007", "level": "INFO", "module": "MainController", "message": "Aplikace spuštěna uživatelem: miloslah, IP: 10.0.17.29"}
+{"timestamp": "2025-08-06 16:12:33,150", "level": "INFO", "module": "MainController", "message": "Kliknuto na 'Services'"}
+{"timestamp": "2025-08-06 16:20:53,497", "level": "INFO", "module": "MainController", "message": "Kliknuto na 'Services'"}

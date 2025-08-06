@@ -39,10 +39,11 @@ class MainWindow(QMainWindow):
             QPushButton {
                 background-color: #2ECC71;
                 color: white;
-                font-size: 18px;
+                font-family: 'Segoe UI', sans-serif;
+                font-size: 20px;
+                font-weight: bold;
                 padding: 10px;
                 border-radius: 8px;
-                text-align: left;
             }
             QPushButton:hover {
                 background-color: #27AE60;
