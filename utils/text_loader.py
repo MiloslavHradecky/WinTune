@@ -1,4 +1,8 @@
 from utils.resources import resource_path
+from utils.messenger import Messenger
+from utils.logger import get_logger
+
+logger = get_logger(__name__)
 
 def get_description(module_name: str) -> str:
     """
@@ -15,4 +19,6 @@ def get_description(module_name: str) -> str:
         with open(file_path, encoding="utf-8") as f:
             return f.read()
     except FileNotFoundError:
-        return f"[!] Popis pro modul '{module_name}' nebyl nalezen."
+        logger.error(f"Popis pro modul '{module_name}' nebyl nalezen – soubor chybí.")
+        Messenger.error(f"Popis pro modul '{module_name}' nebyl nalezen.")
+        return ""
