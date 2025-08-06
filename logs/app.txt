@@ -47,3 +47,5 @@
 2025-08-06 21:15:14,140 | INFO | MainController | Aplikace spuštěna uživatelem: Home, IP: 192.168.1.86
 2025-08-06 21:15:29,302 | INFO | MainController | Kliknuto na 'Services'
 2025-08-06 21:15:52,046 | INFO | MainController | Kliknuto na 'Services'
+2025-08-06 21:54:13,709 | INFO | MainController | Aplikace spuštěna uživatelem: Home, PC: HOME-BRIX, IP: 192.168.1.86
+2025-08-06 21:54:26,637 | INFO | MainController | Kliknuto na 'Services'

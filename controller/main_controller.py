@@ -44,7 +44,8 @@ class MainController:
     def log_start(self):
         username = getpass.getuser()
         ip_address = self.get_local_ip()
-        self.logger.info(f"Aplikace spuštěna uživatelem: {username}, IP: {ip_address}")
+        hostname = socket.gethostname()
+        self.logger.info(f"Aplikace spuštěna uživatelem: {username}, PC: {hostname}, IP: {ip_address}")
 
     def handle_services_click(self):
         self.logger.info("Kliknuto na 'Services'")

@@ -47,3 +47,5 @@
 {"timestamp": "2025-08-06 21:15:14,140", "level": "INFO", "module": "MainController", "message": "Aplikace spuštěna uživatelem: Home, IP: 192.168.1.86"}
 {"timestamp": "2025-08-06 21:15:29,302", "level": "INFO", "module": "MainController", "message": "Kliknuto na 'Services'"}
 {"timestamp": "2025-08-06 21:15:52,046", "level": "INFO", "module": "MainController", "message": "Kliknuto na 'Services'"}
+{"timestamp": "2025-08-06 21:54:13,709", "level": "INFO", "module": "MainController", "message": "Aplikace spuštěna uživatelem: Home, PC: HOME-BRIX, IP: 192.168.1.86"}
+{"timestamp": "2025-08-06 21:54:26,637", "level": "INFO", "module": "MainController", "message": "Kliknuto na 'Services'"}
